@@ -41,8 +41,8 @@ Set the adapter to debug log mode (Instances -> Expert mode -> Column Log level)
 
 ## Changelog
 
-### 0.0.1
-* (ice987) initial development
+### v0.0.1 (17.07.2022)
+* (ice987) initial release
 
 ## License
 MIT License
