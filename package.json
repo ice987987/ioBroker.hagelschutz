@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "This adapter fetches hail warnings from https://meteo.netitservices.com",
   "author": {
-    "name": "ice987",
+    "name": "ice987987",
     "email": "mathias.frei1@gmail.com"
   },
   "homepage": "https://github.com/ice987987/ioBroker.hagelschutz",
