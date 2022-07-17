@@ -2,12 +2,11 @@
 	"cli": true,
 	"target": "directory",
 	"adapterName": "hagelschutz",
-	"title": "Hagelschutz Schweiz",
+	"title": "Hagelschutz",
 	"description": "This adapter fetches hail warnings from https://meteo.netitservices.com",
 	"keywords": [
 		"hail",
-		"hail warnings",
-		"switzerland"
+		"hail warnings"
 	],
 	"expert": "yes",
 	"features": [

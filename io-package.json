@@ -17,16 +17,16 @@
             }
         },
         "titleLang": {
-            "en": "Hagelschutz Schweiz",
-            "de": "Hagelschutz Schweiz",
-            "ru": "Хагельшуц Швейцария",
-            "pt": "Hagelschutz Schweiz",
-            "nl": "Hagelschutz Schweiz",
-            "fr": "Hagelschutz Suisse",
-            "it": "Hagelschutz Svizzera",
-            "es": "Hagelschutz Schweiz",
-            "pl": "Hagelschutz Schweiz",
-            "zh-cn": "Hagelschutz Schweiz"
+            "en": "Hagelschutz",
+            "de": "Hagelschutz",
+            "ru": "Хагельшуц",
+            "pt": "Hagelschutz",
+            "nl": "Hagelschutz",
+            "fr": "Hagelschutz",
+            "it": "Hagelschutz",
+            "es": "Hagelschutz",
+            "pl": "Hagelschutz",
+            "zh-cn": "Hagelschutz"
         },
         "desc": {
             "en": "This adapter fetches hail warnings from https://meteo.netitservices.com",
@@ -45,8 +45,7 @@
         ],
         "keywords": [
             "hail",
-            "hail warnings",
-            "switzerland"
+            "hail warnings"
         ],
         "license": "MIT",
         "platform": "Javascript/Node.js",
