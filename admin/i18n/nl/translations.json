@@ -1,0 +1,4 @@
+{
+    "url": "URL",
+    "urlHint": "Om het signaal voor een geregistreerd eindpunt/locatie op te halen, doet de client een HTTP GET-verzoek met de hierboven ingevoerde URL."
+}

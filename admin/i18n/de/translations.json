@@ -1,0 +1,4 @@
+{
+    "url": "URL",
+    "urlHint": "Um das Signal für einen registrierten Endpunkt/Standort abzurufen, führt der Client eine HTTP-GET-Anfrage mit der oben eingegebenen URL durch."
+}

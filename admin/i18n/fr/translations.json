@@ -1,0 +1,4 @@
+{
+    "url": "URL",
+    "urlHint": "Pour récupérer le signal pour un point de terminaison/emplacement enregistré, le client effectue une requête HTTP GET avec l'URL saisie ci-dessus."
+}

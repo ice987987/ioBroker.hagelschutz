@@ -1,0 +1,106 @@
+{
+    "common": {
+        "name": "hagelschutz",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "titleLang": {
+            "en": "Hagelschutz Schweiz",
+            "de": "Hagelschutz Schweiz",
+            "ru": "Хагельшуц Швейцария",
+            "pt": "Hagelschutz Schweiz",
+            "nl": "Hagelschutz Schweiz",
+            "fr": "Hagelschutz Suisse",
+            "it": "Hagelschutz Svizzera",
+            "es": "Hagelschutz Schweiz",
+            "pl": "Hagelschutz Schweiz",
+            "zh-cn": "Hagelschutz Schweiz"
+        },
+        "desc": {
+            "en": "This adapter fetches hail warnings from https://meteo.netitservices.com",
+            "de": "Dieser Adapter ruft Hagelwarnungen von https://meteo.netitservices.com ab",
+            "ru": "Этот адаптер получает предупреждения о граде с https://meteo.netitservices.com.",
+            "pt": "Este adaptador busca avisos de granizo de https://meteo.netitservices.com",
+            "nl": "Deze adapter haalt hagelwaarschuwingen op van https://meteo.netitservices.com",
+            "fr": "Cet adaptateur récupère les avertissements de grêle de https://meteo.netitservices.com",
+            "it": "Questo adattatore recupera gli avvisi di grandine da https://meteo.netitservices.com",
+            "es": "Este adaptador obtiene advertencias de granizo de https://meteo.netitservices.com",
+            "pl": "Ten adapter pobiera ostrzeżenia o gradobiciu z https://meteo.netitservices.com",
+            "zh-cn": "此适配器从 https://meteo.netitservices.com 获取冰雹警告"
+        },
+        "authors": [
+            "ice987 <mathias.frei1@gmail.com>"
+        ],
+        "keywords": [
+            "hail",
+            "hail warnings",
+            "switzerland"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "hagelschutz.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/ice987987/ioBroker.hagelschutz/main/admin/hagelschutz.png",
+        "readme": "https://github.com/ice987987/ioBroker.hagelschutz/blob/main/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "weather",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "materialize": true,
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=3.3.19"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=5.1.28"
+            }
+        ]
+    },
+    "native": {
+        "url": ""
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "Device or service connected",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
+    ]
+}

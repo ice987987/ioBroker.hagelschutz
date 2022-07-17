@@ -1,0 +1,4 @@
+{
+    "url": "URL",
+    "urlHint": "Para obtener la señal de un punto final/ubicación registrado, el cliente realiza una solicitud HTTP GET con la URL ingresada anteriormente."
+}

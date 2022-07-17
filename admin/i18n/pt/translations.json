@@ -1,0 +1,4 @@
+{
+    "url": "URL",
+    "urlHint": "Para buscar o sinal para um endpoint/local registrado, o cliente faz uma solicitação HTTP GET com o URL inserido acima."
+}
