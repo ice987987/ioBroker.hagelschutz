@@ -1,4 +1,5 @@
 {
     "url": "URL",
-    "urlHint": "Per recuperare il segnale per un endpoint/posizione registrato, il client esegue una richiesta HTTP GET con l'URL inserito sopra."
+    "urlHint": "Per recuperare il segnale per un endpoint/posizione registrato, il client esegue una richiesta HTTP GET con l'URL inserito sopra.",
+    "systemPage": "Pagina di sistema"
 }

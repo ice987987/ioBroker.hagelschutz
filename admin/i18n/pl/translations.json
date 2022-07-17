@@ -1,4 +1,5 @@
 {
     "url": "URL",
-    "urlHint": "Aby pobrać sygnał dla zarejestrowanego punktu końcowego/lokalizacji, klient wykonuje żądanie HTTP GET z podanym powyżej adresem URL."
+    "urlHint": "Aby pobrać sygnał dla zarejestrowanego punktu końcowego/lokalizacji, klient wykonuje żądanie HTTP GET z podanym powyżej adresem URL.",
+    "systemPage": "Strona systemowa"
 }
