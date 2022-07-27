@@ -16,7 +16,7 @@
 
 ## hagelschutz adapter for ioBroker
 
-This adapter fetches hail warnings from https://meteo.netitservices.com.
+This adapter fetches hail warnings from [https://meteo.netitservices.com](https://meteo.netitservices.com).
 
 ## Installation requirements
 
