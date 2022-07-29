@@ -43,7 +43,7 @@ Set the adapter to debug log mode (Instances -> Expert mode -> Column Log level)
 
 <!-- ### **WORK IN PROGRESS** -->
 
-### **WORK IN PROGRESS**
+### 0.0.2 (29.07.2022)
 * (ice987987) add translations
 
 ### 0.0.1 (17.07.2022)
