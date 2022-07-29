@@ -3,6 +3,18 @@
         "name": "hagelschutz",
         "version": "0.0.2",
         "news": {
+            "0.0.2": {
+                "en": "add translations",
+                "de": "übersetzungen hinzufügen",
+                "ru": "добавить переводы",
+                "pt": "adicionar traduções",
+                "nl": "vertaling:",
+                "fr": "ajouter des traductions",
+                "it": "aggiungere le traduzioni",
+                "es": "añadir traducciones",
+                "pl": "przekład",
+                "zh-cn": "增加翻译"
+            },
             "0.0.1": {
                 "en": "initial release",
                 "de": "Erstveröffentlichung",
