@@ -46,7 +46,7 @@ Set the adapter to debug log mode (Instances -> Expert mode -> Column Log level)
 ### **WORK IN PROGRESS**
 * (ice987987) add translations
 
-### v0.0.1 (17.07.2022)
+### 0.0.1 (17.07.2022)
 * (ice987987) initial release
 
 ## License
