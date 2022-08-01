@@ -3,6 +3,18 @@
         "name": "hagelschutz",
         "version": "0.0.2",
         "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            },
             "0.0.2": {
                 "en": "add translations",
                 "de": "übersetzungen hinzufügen",
@@ -15,18 +27,6 @@
                 "pl": "przekład",
                 "zh-cn": "增加翻译"
             },
-            "0.0.1": {
-                "en": "initial release",
-                "de": "Erstveröffentlichung",
-                "ru": "Начальная версия",
-                "pt": "lançamento inicial",
-                "nl": "Eerste uitgave",
-                "fr": "Première version",
-                "it": "Versione iniziale",
-                "es": "Versión inicial",
-                "pl": "Pierwsze wydanie",
-                "zh-cn": "首次出版"
-            }
         },
         "titleLang": {
             "en": "Hagelschutz",
