@@ -43,7 +43,7 @@ Set the adapter to debug log mode (Instances -> Expert mode -> Column Log level)
 
 <!-- ### **WORK IN PROGRESS** -->
 
-### **WORK IN PROGRESS**
+### 0.0.3 (01.08.2022)
 * (ice987987) update dependencies
 
 ### 0.0.2 (29.07.2022)
