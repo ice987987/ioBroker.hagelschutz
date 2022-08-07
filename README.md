@@ -16,14 +16,14 @@
 
 ## hagelschutz adapter for ioBroker
 
-This adapter fetches hail warnings from [https://meteo.netitservices.com](https://meteo.netitservices.com).
+This adapter fetches hail warnings from [meteo.netitservices.com](https://meteo.netitservices.com).
 
 ## Installation requirements
 
 * node.js >= v14.0 is required
 * js-controller >= v3.3.19 is required
 * admin >= v5.1.28 is required
-* Access to [https://meteo.netitservices.com](https://meteo.netitservices.com) which can requested via [https://www.hagelschutz-einfach-automatisch.ch](https://www.hagelschutz-einfach-automatisch.ch/eigentuemer-verwaltungen/produkt/ich-habe-interesse.html). 
+* Access to [meteo.netitservices.com](https://meteo.netitservices.com) which can requested via [hagelschutz-einfach-automatisch.ch](https://www.hagelschutz-einfach-automatisch.ch/eigentuemer-verwaltungen/produkt/ich-habe-interesse.html). 
 
 ## Available values (readonly)
 
@@ -34,14 +34,21 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 
 ## How to report issues and feature requests
 
-Please use [GitHub issues](https://github.com/ice987987/ioBroker.hagelschutz/issues/new/choose) and fill in the form.
+* For issues
+    Please use [GitHub issues](https://github.com/ice987987/ioBroker.hagelschutz/issues/new/choose) -> "Bug report" and fill in the form.
 
-For issues:
-Set the adapter to debug log mode (Instances -> Expert mode -> Column Log level). Get the logfile from disk (subdirectory "log" in ioBroker installation directory and not from Admin because Admin cuts the lines). Check that there are no personal information before you publish your log.
+    Set the adapter to debug log mode (Instances -> Expert mode -> Column Log level). Get the logfile from disk (subdirectory "log" in ioBroker installation directory and not from Admin because Admin cuts the lines). Check that there are no personal information before you publish your log.
+
+* For feature requests
+    Please use [GitHub issues](https://github.com/ice987987/ioBroker.hagelschutz/issues/new/choose) -> "Feature request" and fill in the form.
 
 ## Changelog
 
 <!-- ### **WORK IN PROGRESS** -->
+
+### **WORK IN PROGRESS**
+* (ice987987) update configuration
+* (ice987987) adding feature request form
 
 ### 0.0.3 (01.08.2022)
 * (ice987987) update dependencies

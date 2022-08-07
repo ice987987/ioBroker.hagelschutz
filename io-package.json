@@ -53,16 +53,16 @@
             "zh-cn": "Hagelschutz"
         },
         "desc": {
-            "en": "This adapter fetches hail warnings from https://meteo.netitservices.com",
-            "de": "Dieser Adapter ruft Hagelwarnungen von https://meteo.netitservices.com ab",
-            "ru": "Этот адаптер получает предупреждения о граде с https://meteo.netitservices.com.",
-            "pt": "Este adaptador busca avisos de granizo de https://meteo.netitservices.com",
-            "nl": "Deze adapter haalt hagelwaarschuwingen op van https://meteo.netitservices.com",
-            "fr": "Cet adaptateur récupère les avertissements de grêle de https://meteo.netitservices.com",
-            "it": "Questo adattatore recupera gli avvisi di grandine da https://meteo.netitservices.com",
-            "es": "Este adaptador obtiene advertencias de granizo de https://meteo.netitservices.com",
-            "pl": "Ten adapter pobiera ostrzeżenia o gradobiciu z https://meteo.netitservices.com",
-            "zh-cn": "此适配器从 https://meteo.netitservices.com 获取冰雹警告"
+            "en": "This adapter fetches hail warnings from meteo.netitservices.com",
+            "de": "Dieser Adapter ruft Hagelwarnungen von meteo.netitservices.com ab",
+            "ru": "Этот адаптер получает предупреждения о граде с meteo.netitservices.com.",
+            "pt": "Este adaptador busca avisos de granizo de meteo.netitservices.com",
+            "nl": "Deze adapter haalt hagelwaarschuwingen op van meteo.netitservices.com",
+            "fr": "Cet adaptateur récupère les avertissements de grêle de meteo.netitservices.com",
+            "it": "Questo adattatore recupera gli avvisi di grandine da meteo.netitservices.com",
+            "es": "Este adaptador obtiene advertencias de granizo de meteo.netitservices.com",
+            "pl": "Ten adapter pobiera ostrzeżenia o gradobiciu z meteo.netitservices.com",
+            "zh-cn": "此适配器从 meteo.netitservices.com 获取冰雹警告"
         },
         "authors": [
             "ice987987 <mathias.frei1@gmail.com>"

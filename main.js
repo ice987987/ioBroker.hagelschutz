@@ -57,7 +57,7 @@ class Hagelschutz extends utils.Adapter {
 
 			// get data
 			await this.getHailData();
-			await this.getHailDatabyByIntervall();
+			await this.getHailDataByIntervall();
 
 		} catch (error) {
 			this.log.error(error);
@@ -119,8 +119,8 @@ class Hagelschutz extends utils.Adapter {
 			});
 	}
 
-	async getHailDatabyByIntervall() {
-		this.log.info('[getHailDatabyByIntervall]: Starting polltimer with a 120 seconds interval.');
+	async getHailDataByIntervall() {
+		this.log.info('[getHailDataByIntervall]: Starting polltimer with a 120 seconds interval.');
 		try {
 			this.intervall = setInterval(async () => {
 				await this.getHailData();
