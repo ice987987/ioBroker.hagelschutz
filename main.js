@@ -26,8 +26,6 @@ class Hagelschutz extends utils.Adapter {
 		});
 		this.on('ready', this.onReady.bind(this));
 		this.on('unload', this.onUnload.bind(this));
-
-		this.firstStart = true;
 	}
 
 	/**
@@ -98,10 +96,7 @@ class Hagelschutz extends utils.Adapter {
 
 				this.setState('hailState', {val: response.data.currentState, ack: true});
 
-				if (this.firstStart === true) {
-					this.setState('info.connection', true, true);
-					this.firstStart = false;
-				}
+				this.setState('info.connection', true, true);
 			})
 			.catch((error) => {
 				if (error.response) {
@@ -115,6 +110,7 @@ class Hagelschutz extends utils.Adapter {
 					this.log.debug(`[getHailData]: error message: ${error.message}`);
 				}
 				this.log.debug(`[getHailData]: error.config: ${JSON.stringify(error.config)}`);
+
 				this.setState('info.connection', false, true);
 			});
 	}
