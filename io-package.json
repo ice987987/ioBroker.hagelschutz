@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "hagelschutz",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "news": {
             "0.0.1": {
                 "en": "initial release",
@@ -38,7 +38,19 @@
                 "es": "dependencias de actualización",
                 "pl": "zależności",
                 "zh-cn": "a. 最新受扶养人"
-            }
+            },
+            "0.0.4": {
+                "en": "BREAKING: js-controller >= v4.0.23 is and admin >= v6.2.19 is required\nupdate configuration\nadding feature request form\nupdate icon fileformat from *.png to *.svg\nupdate dependencies",
+                "de": "BREAKING: js-controller >= v4.0.23 ist und admin >= v6.2.19 ist erforderlich\naktualisierung der konfiguration\nhinzufügen von feature anfrageformular\nupdate icon fileformat von .*png to .*svg\naktualisierung der abhängigkeiten",
+                "ru": "ЗАВТРАК: js-controller >= v4.0.23 is and admin >= v6.2.19 требуется\nобновление конфигурации\nдобавление формы запроса\nобновление иконки файловformat от .*png до .*svg\nобновление зависимостей",
+                "pt": "BREAKING: js-controller >= v4.0.23 é e admin >= v6.2.19 é necessário\nconfiguração de atualização\nadicionando formulário de solicitação de recurso\natualizar formato de arquivo de ícone de .*png para .*svg\ndependências",
+                "nl": "Vertaling:\nvertaling:\n♪\nvertaling:\nvertaling:",
+                "fr": "BREAKING: js-controller ACIA= v4.0.23 est et admin Λ= v6.2.19 est requis\nmise à jour de la configuration\najouter le formulaire de requête\nmettre à jour le format de fichier icon de .*png à .*svg\nmettre à jour les dépendances",
+                "it": "BREAKING: js-controller >= v4.0.23 è e admin >= v6.2.19 è richiesto\nconfigurazione di aggiornamento\naggiunta del modulo di richiesta funzionalità\naggiornamento icon formato file da .*png a .*svg\naggiornamento dipendenze",
+                "es": "BREAKING: js-controller √= v4.0.23 es y admin >= v6.2.19 es requerido\nconfiguración de actualización\nañadir formulario de solicitud de características\nactualización icono formato de archivo de .*png a .*svg\ndependencias de actualización",
+                "pl": "BREAKING: js-controller >= v4.0.23 jest admin >= v6.2.19\nkonfiguracja\ndodać\n.*png to .*svgg\nzależności",
+                "zh-cn": "BAKRE: j- 控制ler >=4.023 , 需要注释>= v6.2.19\n更新\n增加特有请求形式\n最新资料\na. 最新受扶养人"
+              }
         },
         "titleLang": {
             "en": "Hagelschutz",

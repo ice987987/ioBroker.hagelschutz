@@ -1,6 +1,6 @@
 {
   "name": "iobroker.hagelschutz",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This adapter fetches hail warnings from meteo.netitservices.com",
   "author": {
     "name": "ice987987",
