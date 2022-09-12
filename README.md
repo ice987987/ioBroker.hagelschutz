@@ -1,4 +1,4 @@
-![Logo](admin/hagelschutz.png)
+![Logo](admin/hagelschutz.svg)
 # ioBroker.hagelschutz
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.hagelschutz.svg)](https://www.npmjs.com/package/iobroker.hagelschutz)
@@ -8,7 +8,7 @@
 <!-- ![Current version in stable repository](https://iobroker.live/badges/hagelschutz-stable.svg) -->
 <!-- [![Dependency Status](https://img.shields.io/david/ice987987/iobroker.hagelschutz.svg)](https://david-dm.org/ice987987/iobroker.hagelschutz) -->
 
-[![NPM](https://nodei.co/npm/iobroker.hagelschutz.png?downloads=true)](https://nodei.co/npm/iobroker.hagelschutz/)
+[![NPM](https://nodei.co/npm/iobroker.hagelschutz.svg?downloads=true)](https://nodei.co/npm/iobroker.hagelschutz/)
 
 ![Test and Release](https://github.com/ice987987/ioBroker.hagelschutz/workflows/Test%20and%20Release/badge.svg)
 
@@ -21,8 +21,8 @@ This adapter fetches hail warnings from [meteo.netitservices.com](https://meteo.
 ## Installation requirements
 
 * node.js >= v14.0 is required
-* js-controller >= v3.3.19 is required
-* admin >= v5.1.28 is required
+* js-controller >= v4.0.23 is required
+* admin >= v6.2.19 is required
 * Access to [meteo.netitservices.com](https://meteo.netitservices.com) which can requested via [hagelschutz-einfach-automatisch.ch](https://www.hagelschutz-einfach-automatisch.ch/eigentuemer-verwaltungen/produkt/ich-habe-interesse.html). 
 
 ## Available values (readonly)
@@ -47,8 +47,10 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 <!-- ### **WORK IN PROGRESS** -->
 
 ### **WORK IN PROGRESS**
+* (ice987987) BREAKING: js-controller >= v4.0.23 is and admin >= v6.2.19 is required
 * (ice987987) update configuration
 * (ice987987) adding feature request form
+* (ice987987) update icon fileformat from *.png to *.svg
 
 ### 0.0.3 (01.08.2022)
 * (ice987987) update dependencies

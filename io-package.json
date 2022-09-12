@@ -74,9 +74,9 @@
         "license": "MIT",
         "platform": "Javascript/Node.js",
         "main": "main.js",
-        "icon": "hagelschutz.png",
+        "icon": "hagelschutz.svg",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/ice987987/ioBroker.hagelschutz/main/admin/hagelschutz.png",
+        "extIcon": "https://raw.githubusercontent.com/ice987987/ioBroker.hagelschutz/main/admin/hagelschutz.svg",
         "readme": "https://github.com/ice987987/ioBroker.hagelschutz/blob/main/README.md",
         "loglevel": "info",
         "mode": "daemon",
@@ -90,12 +90,12 @@
         },
         "dependencies": [
             {
-                "js-controller": ">=3.3.19"
+                "js-controller": ">=4.0.23"
             }
         ],
         "globalDependencies": [
             {
-                "admin": ">=5.1.28"
+                "admin": ">=6.2.19"
             }
         ]
     },
