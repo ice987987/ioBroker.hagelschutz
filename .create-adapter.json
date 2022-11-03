@@ -3,15 +3,10 @@
 	"target": "directory",
 	"adapterName": "hagelschutz",
 	"title": "Hagelschutz",
-	"description": "This adapter fetches hail warnings from https://meteo.netitservices.com",
-	"keywords": [
-		"hail",
-		"hail warnings"
-	],
+	"description": "This adapter fetches hail warnings from meteo.netitservices.com.",
+	"keywords": ["hail", "hailwarnings"],
 	"expert": "yes",
-	"features": [
-		"adapter"
-	],
+	"features": ["adapter"],
 	"adminFeatures": [],
 	"type": "weather",
 	"startMode": "daemon",
@@ -19,12 +14,9 @@
 	"dataSource": "poll",
 	"connectionIndicator": "yes",
 	"language": "JavaScript",
-	"adminReact": "no",
-	"tools": [
-		"ESLint",
-		"type checking"
-	],
-	"i18n": "words.js",
+	"nodeVersion": "14",
+	"adminUi": "json",
+	"tools": ["ESLint", "type checking", "Prettier"],
 	"releaseScript": "no",
 	"devServer": "no",
 	"indentation": "Tab",
@@ -34,9 +26,9 @@
 	"authorGithub": "ice987987",
 	"authorEmail": "mathias.frei1@gmail.com",
 	"gitRemoteProtocol": "HTTPS",
-	"gitCommit": "no",
+	"gitCommit": "yes",
 	"defaultBranch": "main",
 	"license": "MIT License",
 	"dependabot": "yes",
-	"creatorVersion": "2.1.1"
+	"creatorVersion": "2.3.0"
 }

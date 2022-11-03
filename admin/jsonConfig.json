@@ -1,37 +1,37 @@
 {
-    "type": "panel",
-    "i18n": true,
-    "items": {
-        "url": {
-            "newLine": true,
-            "type": "text",
-            "label": "url",
-            "help": "urlHint",
-            "placeholder": "https://meteo.netitservices.com/api/v0/devices/xxxxxxxxxxxx/poll?hwtypeId=yyy",
-            "validator": "data.url.match(/https:\\/\\/meteo.netitservices.com\\/api\\/v0\\/devices\\/[a-zA-Z0-9]{12}\\/poll\\?hwtypeId\\=[0-9]{1,4}/)",
-            "validatorNoSaveOnError": true,
-            "xs": 12,
-            "sm": 12,
-            "md": 8,
-            "lg": 8
-        },
-        "_divider": {
-            "newLine": true,
-            "type": "divider",
-            "color": "primary",
-            "xs": 12,
-            "sm": 12,
-            "md": 8,
-            "lg": 8
-        },
-        "_systemPage": {
-            "newLine": true,
-            "type": "staticLink",
-            "label": "systemPage",
-            "variant": "contained",
-            "color": "primary",
-            "button": true,
-            "href": "https://meteo.netitservices.com"
-        }
-    }
+	"type": "panel",
+	"i18n": true,
+	"items": {
+		"url": {
+			"newLine": true,
+			"type": "text",
+			"label": "url",
+			"help": "urlHint",
+			"placeholder": "https://meteo.netitservices.com/api/v0/devices/xxxxxxxxxxxx/poll?hwtypeId=yyy",
+			"validator": "data.url.match(/https:\\/\\/meteo.netitservices.com\\/api\\/v0\\/devices\\/[a-zA-Z0-9]{12}\\/poll\\?hwtypeId\\=[0-9]{1,4}/)",
+			"validatorNoSaveOnError": true,
+			"xs": 12,
+			"sm": 12,
+			"md": 8,
+			"lg": 8
+		},
+		"_divider": {
+			"newLine": true,
+			"type": "divider",
+			"color": "primary",
+			"xs": 12,
+			"sm": 12,
+			"md": 8,
+			"lg": 8
+		},
+		"_systemPage": {
+			"newLine": true,
+			"type": "staticLink",
+			"label": "systemPage",
+			"variant": "contained",
+			"color": "primary",
+			"button": true,
+			"href": "https://meteo.netitservices.com"
+		}
+	}
 }

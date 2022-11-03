@@ -1,21 +1,19 @@
 'use strict';
 
 /*
- * Created with @iobroker/create-adapter v2.1.1
+ * Created with @iobroker/create-adapter v2.3.0
  */
-
 // The adapter-core module gives you access to the core ioBroker functions
 // you need to create an adapter
 const utils = require('@iobroker/adapter-core');
 
 // Load your modules here, e.g.:
-const axios = require('axios').default;
+const axios = require('axios');
 
 // variables
 const isValidUrl = /https:\/\/meteo.netitservices.com\/api\/v0\/devices\/[a-zA-Z0-9]{12}\/poll\?hwtypeId=[0-9]{1,4}/;
 
 class Hagelschutz extends utils.Adapter {
-
 	/**
 	 * @param {Partial<utils.AdapterOptions>} [options={}]
 	 */
@@ -26,6 +24,8 @@ class Hagelschutz extends utils.Adapter {
 		});
 		this.on('ready', this.onReady.bind(this));
 		this.on('unload', this.onUnload.bind(this));
+
+		this.requestClient = axios.create();
 	}
 
 	/**
@@ -43,7 +43,9 @@ class Hagelschutz extends utils.Adapter {
 
 		// check url
 		if (!isValidUrl.test(this.config.url)) {
-			this.log.error('"Url" is not valid (allowed format: https://meteo.netitservices.com/api/v0/devices/xxxxxxxxxxxx/poll?hwtypeId=yyy) (ERR_#001)');
+			this.log.error(
+				'"Url" is not valid (allowed format: https://meteo.netitservices.com/api/v0/devices/xxxxxxxxxxxx/poll?hwtypeId=yyy) (ERR_#001)',
+			);
 			return;
 		}
 
@@ -56,7 +58,6 @@ class Hagelschutz extends utils.Adapter {
 			// get data
 			await this.getHailData();
 			await this.getHailDataByIntervall();
-
 		} catch (error) {
 			this.log.error(error);
 		}
@@ -74,34 +75,44 @@ class Hagelschutz extends utils.Adapter {
 				desc: 'Hail State',
 				type: 'number',
 				role: 'value.hail',
-				states: {0: 'no hail', 1: 'hail', 2: 'hail state triggered by test-alarm'},
+				states: { 0: 'no hail', 1: 'hail', 2: 'hail state triggered by test-alarm' },
 				min: 0,
 				max: 2,
 				read: true,
-				write: false
+				write: false,
 			},
-			native: {}
+			native: {},
 		});
 
 		this.log.debug('[createObjects]: Objects created...');
 	}
 
 	async getHailData() {
-		await axios({
+		await this.requestClient({
 			method: 'GET',
-			url: this.config.url
+			url: this.config.url,
 		})
 			.then((response) => {
-				this.log.debug(`[getHailData]: HTTP status response: ${response.status} ${response.statusText}; config: ${JSON.stringify(response.config)}; headers: ${JSON.stringify(response.headers)}; data: ${JSON.stringify(response.data)}`);
+				this.log.debug(
+					`[getHailData]: HTTP status response: ${response.status} ${
+						response.statusText
+					}; config: ${JSON.stringify(response.config)}; headers: ${JSON.stringify(
+						response.headers,
+					)}; data: ${JSON.stringify(response.data)}`,
+				);
 
-				this.setState('hailState', {val: response.data.currentState, ack: true});
+				this.setState('hailState', { val: response.data.currentState, ack: true });
 
 				this.setState('info.connection', true, true);
 			})
 			.catch((error) => {
 				if (error.response) {
 					// The request was made and the server responded with a status code that falls out of the range of 2xx
-					this.log.debug(`[getHailData]: HTTP status response: ${error.response.status}; headers: ${JSON.stringify(error.response.headers)}; data: ${JSON.stringify(error.response.data)}`);
+					this.log.debug(
+						`[getHailData]: HTTP status response: ${error.response.status}; headers: ${JSON.stringify(
+							error.response.headers,
+						)}; data: ${JSON.stringify(error.response.data)}`,
+					);
 				} else if (error.request) {
 					// The request was made but no response was received `error.request` is an instance of XMLHttpRequest in the browser and an instance of http.ClientRequest in node.js
 					this.log.debug(`[getHailData]: error request: ${error}`);
