@@ -52,10 +52,18 @@
 				"zh-cn": "BAKRE: j- 控制ler >=4.023 , 需要注释>= v6.2.19\n更新\n增加特有请求形式\n最新资料\na. 最新受扶养人"
 			},
 			"0.0.5-beta.1": {
-				"en": "update dependencies"
+				"en": "update dependencies",
+				"de": "aktualisierung der abhängigkeiten",
+				"ru": "обновление зависимостей",
+				"pt": "dependências",
+				"nl": "vertaling:",
+				"fr": "mettre à jour les dépendances",
+				"it": "aggiornamento dipendenze",
+				"es": "dependencias de actualización",
+				"pl": "zależności",
+				"zh-cn": "a. 最新受扶养人"
 			}
 		},
-		"title": "Hagelschutz",
 		"titleLang": {
 			"en": "Hagelschutz",
 			"de": "Hagelschutz",
