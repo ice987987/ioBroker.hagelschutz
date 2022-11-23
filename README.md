@@ -20,6 +20,10 @@
 
 This adapter fetches hail warnings from [meteo.netitservices.com](https://meteo.netitservices.com).
 
+## Disclaimer
+
+All product and company names or logos are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them or any associated subsidiaries! This personal project is maintained in spare time and has no business goal. meteo.netitservices and hagelschutz-einfach-automatisch are trademarks of Vereinigung Kantonaler Feuerversicherungen VKF, CH-3001 Bern.
+
 ## Installation requirements
 
 -   node.js >= v14.0 is required
@@ -52,6 +56,7 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 ### 0.0.5-beta.1
 
 -   (ice987987) update dependencies
+-   (ice987987) add section "disclaimer" in readme
 
 ### 0.0.4 (12.09.2022)
 
