@@ -1,147 +1,159 @@
 {
-	"common": {
-		"name": "hagelschutz",
-		"version": "0.0.5-beta.1",
-		"news": {
-			"0.0.1": {
-				"en": "initial release",
-				"de": "Erstveröffentlichung",
-				"ru": "Начальная версия",
-				"pt": "lançamento inicial",
-				"nl": "Eerste uitgave",
-				"fr": "Première version",
-				"it": "Versione iniziale",
-				"es": "Versión inicial",
-				"pl": "Pierwsze wydanie",
-				"zh-cn": "首次出版"
-			},
-			"0.0.2": {
-				"en": "add translations",
-				"de": "übersetzungen hinzufügen",
-				"ru": "добавить переводы",
-				"pt": "adicionar traduções",
-				"nl": "vertaling:",
-				"fr": "ajouter des traductions",
-				"it": "aggiungere le traduzioni",
-				"es": "añadir traducciones",
-				"pl": "przekład",
-				"zh-cn": "增加翻译"
-			},
-			"0.0.3": {
-				"en": "update dependencies",
-				"de": "aktualisierung der abhängigkeiten",
-				"ru": "обновление зависимостей",
-				"pt": "dependências",
-				"nl": "vertaling:",
-				"fr": "mettre à jour les dépendances",
-				"it": "aggiornamento dipendenze",
-				"es": "dependencias de actualización",
-				"pl": "zależności",
-				"zh-cn": "a. 最新受扶养人"
-			},
-			"0.0.4": {
-				"en": "BREAKING: js-controller >= v4.0.23 is and admin >= v6.2.19 is required\nupdate configuration\nadding feature request form\nupdate icon fileformat from *.png to *.svg\nupdate dependencies",
-				"de": "BREAKING: js-controller >= v4.0.23 ist und admin >= v6.2.19 ist erforderlich\naktualisierung der konfiguration\nhinzufügen von feature anfrageformular\nupdate icon fileformat von .*png to .*svg\naktualisierung der abhängigkeiten",
-				"ru": "ЗАВТРАК: js-controller >= v4.0.23 is and admin >= v6.2.19 требуется\nобновление конфигурации\nдобавление формы запроса\nобновление иконки файловformat от .*png до .*svg\nобновление зависимостей",
-				"pt": "BREAKING: js-controller >= v4.0.23 é e admin >= v6.2.19 é necessário\nconfiguração de atualização\nadicionando formulário de solicitação de recurso\natualizar formato de arquivo de ícone de .*png para .*svg\ndependências",
-				"nl": "Vertaling:\nvertaling:\n♪\nvertaling:\nvertaling:",
-				"fr": "BREAKING: js-controller ACIA= v4.0.23 est et admin Λ= v6.2.19 est requis\nmise à jour de la configuration\najouter le formulaire de requête\nmettre à jour le format de fichier icon de .*png à .*svg\nmettre à jour les dépendances",
-				"it": "BREAKING: js-controller >= v4.0.23 è e admin >= v6.2.19 è richiesto\nconfigurazione di aggiornamento\naggiunta del modulo di richiesta funzionalità\naggiornamento icon formato file da .*png a .*svg\naggiornamento dipendenze",
-				"es": "BREAKING: js-controller √= v4.0.23 es y admin >= v6.2.19 es requerido\nconfiguración de actualización\nañadir formulario de solicitud de características\nactualización icono formato de archivo de .*png a .*svg\ndependencias de actualización",
-				"pl": "BREAKING: js-controller >= v4.0.23 jest admin >= v6.2.19\nkonfiguracja\ndodać\n.*png to .*svgg\nzależności",
-				"zh-cn": "BAKRE: j- 控制ler >=4.023 , 需要注释>= v6.2.19\n更新\n增加特有请求形式\n最新资料\na. 最新受扶养人"
-			},
-			"0.0.5-beta.1": {
-				"en": "update dependencies",
-				"de": "aktualisierung der abhängigkeiten",
-				"ru": "обновление зависимостей",
-				"pt": "dependências",
-				"nl": "vertaling:",
-				"fr": "mettre à jour les dépendances",
-				"it": "aggiornamento dipendenze",
-				"es": "dependencias de actualización",
-				"pl": "zależności",
-				"zh-cn": "a. 最新受扶养人"
-			}
-		},
-		"titleLang": {
-			"en": "Hagelschutz",
-			"de": "Hagelschutz",
-			"ru": "Hagelschutz",
-			"pt": "Hagelschutz",
-			"nl": "Hagelschutz",
-			"fr": "Hagelschutz",
-			"it": "Hagelschutz",
-			"es": "Hagelschutz",
-			"pl": "Hagelschütz",
-			"zh-cn": "Hagelschutz"
-		},
-		"desc": {
-			"en": "This adapter fetches hail warnings from meteo.netitservices.com.",
-			"de": "Dieser Adapter ruft Hagelwarnungen von meteo.netitservices.com ab.",
-			"ru": "Этот адаптер получает предупреждения о граде с сайта meteo.netitservices.com.",
-			"pt": "Este adaptador obtém avisos de granizo de meteo.netitservices.com.",
-			"nl": "Deze adapter haalt hagelwaarschuwingen op van meteo.netitservices.com.",
-			"fr": "Cet adaptateur récupère les avertissements de grêle de meteo.netitservices.com.",
-			"it": "Questo adattatore recupera gli avvisi di grandine da meteo.netitservices.com.",
-			"es": "Este adaptador obtiene advertencias de granizo de meteo.netitservices.com.",
-			"pl": "Ten adapter pobiera ostrzeżenia o grach z meteo.netitservices.com.",
-			"zh-cn": "该适配器从meteo.netitservices.com 获取冰雹警告。"
-		},
-		"authors": ["ice987987 <mathias.frei1@gmail.com>"],
-		"keywords": ["hail", "hailwarnings"],
-		"license": "MIT",
-		"platform": "Javascript/Node.js",
-		"main": "main.js",
-		"icon": "hagelschutz.svg",
-		"enabled": true,
-		"extIcon": "https://raw.githubusercontent.com/ice987987/ioBroker.hagelschutz/main/admin/hagelschutz.svg",
-		"readme": "https://github.com/ice987987/ioBroker.hagelschutz/blob/main/README.md",
-		"loglevel": "info",
-		"mode": "daemon",
-		"type": "weather",
-		"compact": true,
-		"connectionType": "cloud",
-		"dataSource": "poll",
-		"adminUI": {
-			"config": "json"
-		},
-		"dependencies": [
-			{
-				"js-controller": ">=4.0.23"
-			}
-		],
-		"globalDependencies": [
-			{
-				"admin": ">=6.2.19"
-			}
-		]
-	},
-	"native": {
-		"url": ""
-	},
-	"objects": [],
-	"instanceObjects": [
-		{
-			"_id": "info",
-			"type": "channel",
-			"common": {
-				"name": "Information"
-			},
-			"native": {}
-		},
-		{
-			"_id": "info.connection",
-			"type": "state",
-			"common": {
-				"role": "indicator.connected",
-				"name": "Device or service connected",
-				"type": "boolean",
-				"read": true,
-				"write": false,
-				"def": false
-			},
-			"native": {}
-		}
-	]
+    "common": {
+        "name": "hagelschutz",
+        "version": "0.0.5-beta.2",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版",
+                "uk": "початковий випуск"
+            },
+            "0.0.2": {
+                "en": "add translations",
+                "de": "übersetzungen hinzufügen",
+                "ru": "добавить переводы",
+                "pt": "adicionar traduções",
+                "nl": "vertaling:",
+                "fr": "ajouter des traductions",
+                "it": "aggiungere le traduzioni",
+                "es": "añadir traducciones",
+                "pl": "przekład",
+                "zh-cn": "增加翻译",
+                "uk": "додати переклади"
+            },
+            "0.0.3": {
+                "en": "update dependencies",
+                "de": "aktualisierung der abhängigkeiten",
+                "ru": "обновление зависимостей",
+                "pt": "dependências",
+                "nl": "vertaling:",
+                "fr": "mettre à jour les dépendances",
+                "it": "aggiornamento dipendenze",
+                "es": "dependencias de actualización",
+                "pl": "zależności",
+                "zh-cn": "a. 最新受扶养人",
+                "uk": "оновити залежності"
+            },
+            "0.0.4": {
+                "en": "BREAKING: js-controller >= v4.0.23 is and admin >= v6.2.19 is required\nupdate configuration\nadding feature request form\nupdate icon fileformat from *.png to *.svg\nupdate dependencies",
+                "de": "BREAKING: js-controller >= v4.0.23 ist und admin >= v6.2.19 ist erforderlich\naktualisierung der konfiguration\nhinzufügen von feature anfrageformular\nupdate icon fileformat von .*png to .*svg\naktualisierung der abhängigkeiten",
+                "ru": "ЗАВТРАК: js-controller >= v4.0.23 is and admin >= v6.2.19 требуется\nобновление конфигурации\nдобавление формы запроса\nобновление иконки файловformat от .*png до .*svg\nобновление зависимостей",
+                "pt": "BREAKING: js-controller >= v4.0.23 é e admin >= v6.2.19 é necessário\nconfiguração de atualização\nadicionando formulário de solicitação de recurso\natualizar formato de arquivo de ícone de .*png para .*svg\ndependências",
+                "nl": "Vertaling:\nvertaling:\n♪\nvertaling:\nvertaling:",
+                "fr": "BREAKING: js-controller ACIA= v4.0.23 est et admin Λ= v6.2.19 est requis\nmise à jour de la configuration\najouter le formulaire de requête\nmettre à jour le format de fichier icon de .*png à .*svg\nmettre à jour les dépendances",
+                "it": "BREAKING: js-controller >= v4.0.23 è e admin >= v6.2.19 è richiesto\nconfigurazione di aggiornamento\naggiunta del modulo di richiesta funzionalità\naggiornamento icon formato file da .*png a .*svg\naggiornamento dipendenze",
+                "es": "BREAKING: js-controller √= v4.0.23 es y admin >= v6.2.19 es requerido\nconfiguración de actualización\nañadir formulario de solicitud de características\nactualización icono formato de archivo de .*png a .*svg\ndependencias de actualización",
+                "pl": "BREAKING: js-controller >= v4.0.23 jest admin >= v6.2.19\nkonfiguracja\ndodać\n.*png to .*svgg\nzależności",
+                "zh-cn": "BAKRE: j- 控制ler >=4.023 , 需要注释>= v6.2.19\n更新\n增加特有请求形式\n最新资料\na. 最新受扶养人",
+                "uk": "ПОЛИМАННЯ: js-controller >= v4.0.23 є, а admin >= v6.2.19 потрібен\nоновити конфігурацію\nдодавання форми запиту функції\nоновити формат файлу значка з *.png на *.svg\nоновити залежності"
+            },
+            "0.0.5-beta.2": {
+                "en": "dependencies updated, ukrainian language added",
+                "de": "Abhängigkeiten aktualisiert, ukrainische Sprache hinzugefügt",
+                "ru": "обновлены зависимости, добавлен украинский язык",
+                "pt": "dependências atualizadas, idioma ucraniano adicionado",
+                "nl": "afhankelijkheden bijgewerkt, Oekraïense taal toegevoegd",
+                "fr": "dépendances mises à jour, langue ukrainienne ajoutée",
+                "it": "dipendenze aggiornate, lingua ucraina aggiunta",
+                "es": "dependencias actualizadas, idioma ucraniano agregado",
+                "pl": "zaktualizowano zależności, dodano język ukraiński",
+                "uk": "оновлено залежності, додано укр",
+                "zh-cn": "更新了依赖项，添加了乌克兰语"
+            }
+        },
+        "titleLang": {
+            "en": "Hagelschutz",
+            "de": "Hagelschutz",
+            "ru": "Hagelschutz",
+            "pt": "Hagelschutz",
+            "nl": "Hagelschutz",
+            "fr": "Hagelschutz",
+            "it": "Hagelschutz",
+            "es": "Hagelschutz",
+            "pl": "Hagelschütz",
+            "zh-cn": "Hagelschutz",
+            "uk": "Хагельшуц"
+        },
+        "desc": {
+            "en": "This adapter fetches hail warnings from meteo.netitservices.com.",
+            "de": "Dieser Adapter ruft Hagelwarnungen von meteo.netitservices.com ab.",
+            "ru": "Этот адаптер получает предупреждения о граде с сайта meteo.netitservices.com.",
+            "pt": "Este adaptador obtém avisos de granizo de meteo.netitservices.com.",
+            "nl": "Deze adapter haalt hagelwaarschuwingen op van meteo.netitservices.com.",
+            "fr": "Cet adaptateur récupère les avertissements de grêle de meteo.netitservices.com.",
+            "it": "Questo adattatore recupera gli avvisi di grandine da meteo.netitservices.com.",
+            "es": "Este adaptador obtiene advertencias de granizo de meteo.netitservices.com.",
+            "pl": "Ten adapter pobiera ostrzeżenia o grach z meteo.netitservices.com.",
+            "zh-cn": "该适配器从meteo.netitservices.com 获取冰雹警告。",
+            "uk": "Цей адаптер отримує попередження про град із сайту meteo.netitservices.com."
+        },
+        "authors": [
+            "ice987987 <mathias.frei1@gmail.com>"
+        ],
+        "keywords": [
+            "hail",
+            "hailwarnings"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "hagelschutz.svg",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/ice987987/ioBroker.hagelschutz/main/admin/hagelschutz.svg",
+        "readme": "https://github.com/ice987987/ioBroker.hagelschutz/blob/main/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "weather",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=4.0.23"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=6.2.19"
+            }
+        ]
+    },
+    "native": {
+        "url": ""
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "Device or service connected",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
+    ]
 }

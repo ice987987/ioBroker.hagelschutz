@@ -53,10 +53,11 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 
 <!-- ### **WORK IN PROGRESS** -->
 
-### 0.0.5-beta.1
+### 0.0.5-beta.2
 
--   (ice987987) update dependencies
--   (ice987987) add section "disclaimer" in readme
+-   (ice987987) dependencies updated
+-   (ice987987) section "disclaimer" in readme added
+-   (ice987987) ukrainian language added
 
 ### 0.0.4 (12.09.2022)
 
@@ -82,7 +83,7 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 
 MIT License
 
-Copyright (c) 2022-2023 ice987987 <mathias.frei1@gmail.com>
+Copyright (c) 2023 ice987987 <mathias.frei1@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
