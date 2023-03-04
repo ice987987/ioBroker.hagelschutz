@@ -53,7 +53,7 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 
 <!-- ### **WORK IN PROGRESS** -->
 
-### 0.0.5-beta.2
+### 0.0.5 (04.03.2023)
 
 -   (ice987987) dependencies updated
 -   (ice987987) section "disclaimer" in readme added
@@ -62,18 +62,18 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 ### 0.0.4 (12.09.2022)
 
 -   (ice987987) BREAKING: js-controller >= v4.0.23 is and admin >= v6.2.19 is required
--   (ice987987) update configuration
--   (ice987987) adding feature request form
--   (ice987987) update icon fileformat from _.png to _.svg
--   (ice987987) update dependencies
+-   (ice987987) configuration updated
+-   (ice987987) feature request form added
+-   (ice987987) icon fileformat from .png to .svg updated
+-   (ice987987) dependencies updated
 
 ### 0.0.3 (01.08.2022)
 
--   (ice987987) update dependencies
+-   (ice987987) dependencies updated
 
 ### 0.0.2 (29.07.2022)
 
--   (ice987987) add translations
+-   (ice987987) translations added
 
 ### 0.0.1 (17.07.2022)
 

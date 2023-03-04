@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "hagelschutz",
-        "version": "0.0.5-beta.2",
+        "version": "0.0.5",
         "news": {
             "0.0.1": {
                 "en": "initial release",
@@ -17,45 +17,45 @@
                 "uk": "початковий випуск"
             },
             "0.0.2": {
-                "en": "add translations",
-                "de": "übersetzungen hinzufügen",
-                "ru": "добавить переводы",
-                "pt": "adicionar traduções",
-                "nl": "vertaling:",
-                "fr": "ajouter des traductions",
-                "it": "aggiungere le traduzioni",
-                "es": "añadir traducciones",
-                "pl": "przekład",
-                "zh-cn": "增加翻译",
-                "uk": "додати переклади"
+                "en": "translations added",
+                "de": "Übersetzungen hinzugefügt",
+                "ru": "добавлены переводы",
+                "pt": "traduções adicionadas",
+                "nl": "vertalingen toegevoegd",
+                "fr": "traductions ajoutées",
+                "it": "traduzioni aggiunte",
+                "es": "traducciones añadidas",
+                "pl": "dodane tłumaczenia",
+                "uk": "перекладів додано",
+                "zh-cn": "添加了翻译"
             },
             "0.0.3": {
-                "en": "update dependencies",
-                "de": "aktualisierung der abhängigkeiten",
-                "ru": "обновление зависимостей",
-                "pt": "dependências",
-                "nl": "vertaling:",
-                "fr": "mettre à jour les dépendances",
-                "it": "aggiornamento dipendenze",
-                "es": "dependencias de actualización",
-                "pl": "zależności",
-                "zh-cn": "a. 最新受扶养人",
-                "uk": "оновити залежності"
+                "en": "dependencies updated",
+                "de": "Abhängigkeiten aktualisiert",
+                "ru": "зависимости обновлены",
+                "pt": "dependências atualizadas",
+                "nl": "afhankelijkheden bijgewerkt",
+                "fr": "dépendances mises à jour",
+                "it": "dipendenze aggiornate",
+                "es": "dependencias actualizadas",
+                "pl": "zaktualizowane zależności",
+                "uk": "залежності оновлено",
+                "zh-cn": "依赖更新"
             },
             "0.0.4": {
-                "en": "BREAKING: js-controller >= v4.0.23 is and admin >= v6.2.19 is required\nupdate configuration\nadding feature request form\nupdate icon fileformat from *.png to *.svg\nupdate dependencies",
-                "de": "BREAKING: js-controller >= v4.0.23 ist und admin >= v6.2.19 ist erforderlich\naktualisierung der konfiguration\nhinzufügen von feature anfrageformular\nupdate icon fileformat von .*png to .*svg\naktualisierung der abhängigkeiten",
-                "ru": "ЗАВТРАК: js-controller >= v4.0.23 is and admin >= v6.2.19 требуется\nобновление конфигурации\nдобавление формы запроса\nобновление иконки файловformat от .*png до .*svg\nобновление зависимостей",
-                "pt": "BREAKING: js-controller >= v4.0.23 é e admin >= v6.2.19 é necessário\nconfiguração de atualização\nadicionando formulário de solicitação de recurso\natualizar formato de arquivo de ícone de .*png para .*svg\ndependências",
-                "nl": "Vertaling:\nvertaling:\n♪\nvertaling:\nvertaling:",
-                "fr": "BREAKING: js-controller ACIA= v4.0.23 est et admin Λ= v6.2.19 est requis\nmise à jour de la configuration\najouter le formulaire de requête\nmettre à jour le format de fichier icon de .*png à .*svg\nmettre à jour les dépendances",
-                "it": "BREAKING: js-controller >= v4.0.23 è e admin >= v6.2.19 è richiesto\nconfigurazione di aggiornamento\naggiunta del modulo di richiesta funzionalità\naggiornamento icon formato file da .*png a .*svg\naggiornamento dipendenze",
-                "es": "BREAKING: js-controller √= v4.0.23 es y admin >= v6.2.19 es requerido\nconfiguración de actualización\nañadir formulario de solicitud de características\nactualización icono formato de archivo de .*png a .*svg\ndependencias de actualización",
-                "pl": "BREAKING: js-controller >= v4.0.23 jest admin >= v6.2.19\nkonfiguracja\ndodać\n.*png to .*svgg\nzależności",
-                "zh-cn": "BAKRE: j- 控制ler >=4.023 , 需要注释>= v6.2.19\n更新\n增加特有请求形式\n最新资料\na. 最新受扶养人",
-                "uk": "ПОЛИМАННЯ: js-controller >= v4.0.23 є, а admin >= v6.2.19 потрібен\nоновити конфігурацію\nдодавання форми запиту функції\nоновити формат файлу значка з *.png на *.svg\nоновити залежності"
+                "en": "BREAKING: js-controller >= v4.0.23 is and admin >= v6.2.19 is required, configuration updated, icon fileformat from .png to .svg updated, dependencies updated",
+                "de": "BREAKING: js-controller >= v4.0.23 ist und admin >= v6.2.19 ist erforderlich, Konfiguration aktualisiert, Icon-Dateiformat von .png auf .svg aktualisiert, Abhängigkeiten aktualisiert",
+                "ru": "BREAKING: js-controller >= v4.0.23 is and admin >= v6.2.19 требуется, конфигурация обновлена, формат файла иконки с .png на .svg обновлен, зависимости обновлены",
+                "pt": "BREAKING: js-controller >= v4.0.23 é e admin >= v6.2.19 é necessário, configuração atualizada, formato de arquivo de ícone de .png para .svg atualizado, dependências atualizadas",
+                "nl": "BREAKING: js-controller >= v4.0.23 is en admin >= v6.2.19 is vereist, configuratie bijgewerkt, pictogrambestandsformaat van .png naar .svg bijgewerkt, afhankelijkheden bijgewerkt",
+                "fr": "BREAKING: js-controller >= v4.0.23 est et admin >= v6.2.19 est requis, configuration mise à jour, format de fichier d'icône de .png à .svg mis à jour, dépendances mises à jour",
+                "it": "ROTTURA: js-controller >= v4.0.23 è e admin >= v6.2.19 è richiesto, configurazione aggiornata, formato file icona da .png a .svg aggiornato, dipendenze aggiornate",
+                "es": "ÚLTIMA HORA: js-controller >= v4.0.23 is and admin >= v6.2.19 is required, configuración actualizada, formato de archivo de icono de .png a .svg actualizado, dependencias actualizadas",
+                "pl": "UWAGA: wymagany jest js-controller >= v4.0.23 i admin >= v6.2.19, zaktualizowana konfiguracja, zaktualizowany format pliku ikon z .png na .svg, zaktualizowane zależności",
+                "uk": "ПОЛИМАННЯ: js-controller >= v4.0.23 і admin >= v6.2.19 потрібен, конфігурацію оновлено, формат файлу піктограми з .png на .svg оновлено, залежності оновлено",
+                "zh-cn": "BREAKING：js-controller >= v4.0.23 is and admin >= v6.2.19 is required, configuration updated, icon fileformat from .png to .svg updated, dependencies updated"
             },
-            "0.0.5-beta.2": {
+            "0.0.5": {
                 "en": "dependencies updated, ukrainian language added",
                 "de": "Abhängigkeiten aktualisiert, ukrainische Sprache hinzugefügt",
                 "ru": "обновлены зависимости, добавлен украинский язык",
