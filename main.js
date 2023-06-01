@@ -8,7 +8,7 @@
 const utils = require('@iobroker/adapter-core');
 
 // Load your modules here, e.g.:
-const axios = require('axios');
+const axios = require('axios').default;
 
 // variables
 const isValidUrl = /https:\/\/meteo.netitservices.com\/api\/v0\/devices\/[a-zA-Z0-9]{12}\/poll\?hwtypeId=[0-9]{1,4}/;
@@ -24,8 +24,6 @@ class Hagelschutz extends utils.Adapter {
 		});
 		this.on('ready', this.onReady.bind(this));
 		this.on('unload', this.onUnload.bind(this));
-
-		this.requestClient = axios.create();
 	}
 
 	/**
@@ -88,7 +86,7 @@ class Hagelschutz extends utils.Adapter {
 	}
 
 	async getHailData() {
-		await this.requestClient({
+		await axios({
 			method: 'GET',
 			url: this.config.url,
 		})

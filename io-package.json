@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "hagelschutz",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "news": {
             "0.0.1": {
                 "en": "initial release",
@@ -67,6 +67,19 @@
                 "pl": "zaktualizowano zależności, dodano język ukraiński",
                 "uk": "оновлено залежності, додано укр",
                 "zh-cn": "更新了依赖项，添加了乌克兰语"
+            },
+            "0.0.6": {
+                "en": "BREAKING: node.js >= v16.0, js-controller >= v4.0.24 and admin >= v6.3.5 is required, dependencies updated",
+                "de": "BREAKING: node.js >= v16.0, js-controller >= v4.0.24 und admin >= v6.3.5 sind erforderlich, Abhängigkeiten aktualisiert",
+                "ru": "BREAKING: требуется node.js >= v16.0, js-controller >= v4.0.24 и admin >= v6.3.5, зависимости обновлены",
+                "pt": "QUEBRA: node.js >= v16.0, js-controller >= v4.0.24 e admin >= v6.3.5 é necessário, dependências atualizadas",
+                "nl": "BREAKING: node.js >= v16.0, js-controller >= v4.0.24 en admin >= v6.3.5 is vereist, afhankelijkheden bijgewerkt",
+                "fr": "BREAKING: node.js >= v16.0, js-controller >= v4.0.24 et admin >= v6.3.5 est requis, dépendances mises à jour",
+                "it": "ROTTURA: node.js >= v16.0, js-controller >= v4.0.24 e admin >= v6.3.5 è richiesto, dipendenze aggiornate",
+                "es": "ÚLTIMA HORA: se requiere node.js >= v16.0, js-controller >= v4.0.24 y admin >= v6.3.5, dependencias actualizadas",
+                "pl": "UWAGA: node.js >= v16.0, js-controller >= v4.0.24 i admin >= v6.3.5 jest wymagany, zależności zaktualizowane",
+                "uk": "ЗЛАМА: потрібні node.js >= v16.0, js-controller >= v4.0.24 і admin >= v6.3.5, залежності оновлено",
+                "zh-cn": "中断：需要 node.js >= v16.0，js-controller >= v4.0.24 和 admin >= v6.3.5，依赖项已更新"
             }
         },
         "titleLang": {
@@ -120,12 +133,12 @@
         },
         "dependencies": [
             {
-                "js-controller": ">=4.0.23"
+                "js-controller": ">=4.0.24"
             }
         ],
         "globalDependencies": [
             {
-                "admin": ">=6.2.19"
+                "admin": ">=6.3.5"
             }
         ]
     },
