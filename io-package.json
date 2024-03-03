@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "hagelschutz",
-        "version": "0.0.6",
+        "version": "0.0.7-beta.1",
         "news": {
             "0.0.1": {
                 "en": "initial release",
@@ -80,6 +80,19 @@
                 "pl": "UWAGA: node.js >= v16.0, js-controller >= v4.0.24 i admin >= v6.3.5 jest wymagany, zależności zaktualizowane",
                 "uk": "ЗЛАМА: потрібні node.js >= v16.0, js-controller >= v4.0.24 і admin >= v6.3.5, залежності оновлено",
                 "zh-cn": "中断：需要 node.js >= v16.0，js-controller >= v4.0.24 和 admin >= v6.3.5，依赖项已更新"
+            },
+            "0.0.7-beta.1": {
+                "en": "add simple true/false for hail, dependencies updated",
+                "de": "Einfaches Wahr/Falsch für Hagel hinzufügen, Abhängigkeiten aktualisiert",
+                "ru": "добавить простое значение true/false для града, обновлены зависимости",
+                "pt": "adicione verdadeiro/falso simples para granizo, dependências atualizadas",
+                "nl": "voeg eenvoudig waar/onwaar toe voor hagel, afhankelijkheden bijgewerkt",
+                "fr": "ajouter un simple vrai/faux pour la grêle, dépendances mises à jour",
+                "it": "aggiungi semplice vero/falso per la grandine, dipendenze aggiornate",
+                "es": "agregue verdadero/falso simple para granizo, dependencias actualizadas",
+                "pl": "dodaj prostą prawdę/fałsz dla gradu, zaktualizowano zależności",
+                "uk": "додати простий істинний/неправдивий для вітання, оновлено залежності",
+                "zh-cn": "添加简单的真/假冰雹，更新依赖项"
             }
         },
         "titleLang": {

@@ -8,7 +8,7 @@
 const utils = require('@iobroker/adapter-core');
 
 // Load your modules here, e.g.:
-const axios = require('axios').default;
+const axios = require('axios');
 
 // variables
 const isValidUrl = /https:\/\/meteo.netitservices.com\/api\/v0\/devices\/[a-zA-Z0-9]{12}\/poll\?hwtypeId=[0-9]{1,4}/;
@@ -82,6 +82,19 @@ class Hagelschutz extends utils.Adapter {
 			native: {},
 		});
 
+		await this.setObjectNotExistsAsync('hail', {
+			type: 'state',
+			common: {
+				name: 'Hail',
+				desc: 'Hail',
+				type: 'boolean',
+				role: 'value.hail',
+				read: true,
+				write: false,
+			},
+			native: {},
+		});
+
 		this.log.debug('[createObjects]: Objects created...');
 	}
 
@@ -91,26 +104,22 @@ class Hagelschutz extends utils.Adapter {
 			url: this.config.url,
 		})
 			.then((response) => {
-				this.log.debug(
-					`[getHailData]: HTTP status response: ${response.status} ${
-						response.statusText
-					}; config: ${JSON.stringify(response.config)}; headers: ${JSON.stringify(
-						response.headers,
-					)}; data: ${JSON.stringify(response.data)}`,
-				);
+				this.log.debug(`[getHailData]: HTTP status response: ${response.status} ${response.statusText}; config: ${JSON.stringify(response.config)}; headers: ${JSON.stringify(response.headers,)}; data: ${JSON.stringify(response.data)}`);
 
 				this.setState('hailState', { val: response.data.currentState, ack: true });
+
+				if (response.data.currentState === 1 || response.data.currentState === 2) {
+					this.setState('hail', { val: true, ack: true });
+				} else {
+					this.setState('hail', { val: false, ack: true });
+				}
 
 				this.setState('info.connection', true, true);
 			})
 			.catch((error) => {
 				if (error.response) {
 					// The request was made and the server responded with a status code that falls out of the range of 2xx
-					this.log.debug(
-						`[getHailData]: HTTP status response: ${error.response.status}; headers: ${JSON.stringify(
-							error.response.headers,
-						)}; data: ${JSON.stringify(error.response.data)}`,
-					);
+					this.log.debug(`[getHailData]: HTTP status response: ${error.response.status}; headers: ${JSON.stringify(error.response.headers)}; data: ${JSON.stringify(error.response.data)}`);
 				} else if (error.request) {
 					// The request was made but no response was received `error.request` is an instance of XMLHttpRequest in the browser and an instance of http.ClientRequest in node.js
 					this.log.debug(`[getHailData]: error request: ${error}`);

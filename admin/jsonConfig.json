@@ -31,7 +31,8 @@
 			"variant": "contained",
 			"color": "primary",
 			"button": true,
-			"href": "https://meteo.netitservices.com"
+			"href": "https://meteo.netitservices.com",
+			"icon": "help"
 		}
 	}
 }

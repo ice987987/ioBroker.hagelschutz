@@ -35,6 +35,7 @@ All product and company names or logos are trademarks™ or registered® tradema
 
 You get the following value:
 
+-   `hail`: `false`: no hail; `true`: hail or hail state triggered by test-alarm
 -   `hailState`: `0`: no hail; `1`: hail; `2`: hail state triggered by test-alarm
 
 The hail forecast is calculated every 5 minutes. Therefore, the interval to poll the API is 120 seconds. This value provides a good balance between polling too often and not missing out on any changes in the forecast.
@@ -52,6 +53,11 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 ## Changelog
 
 <!-- ### **WORK IN PROGRESS** -->
+
+### 0.0.7-beta.1
+
+-   (ice987987) add simple true/false for hail [#92](https://github.com/ice987987/ioBroker.hagelschutz/issues/92)
+-   (ice987987) dependencies updated
 
 ### 0.0.6 (01.06.2023)
 
@@ -88,7 +94,7 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 
 MIT License
 
-Copyright (c) 2023 ice987987 <mathias.frei1@gmail.com>
+Copyright (c) 2024 ice987987 <mathias.frei1@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
