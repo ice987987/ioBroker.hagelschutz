@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "hagelschutz",
-        "version": "0.0.7-beta.1",
+        "version": "0.0.7-beta.2",
         "news": {
             "0.0.1": {
                 "en": "initial release",
@@ -81,18 +81,18 @@
                 "uk": "ЗЛАМА: потрібні node.js >= v16.0, js-controller >= v4.0.24 і admin >= v6.3.5, залежності оновлено",
                 "zh-cn": "中断：需要 node.js >= v16.0，js-controller >= v4.0.24 和 admin >= v6.3.5，依赖项已更新"
             },
-            "0.0.7-beta.1": {
-                "en": "add simple true/false for hail, dependencies updated",
-                "de": "Einfaches Wahr/Falsch für Hagel hinzufügen, Abhängigkeiten aktualisiert",
-                "ru": "добавить простое значение true/false для града, обновлены зависимости",
-                "pt": "adicione verdadeiro/falso simples para granizo, dependências atualizadas",
-                "nl": "voeg eenvoudig waar/onwaar toe voor hagel, afhankelijkheden bijgewerkt",
-                "fr": "ajouter un simple vrai/faux pour la grêle, dépendances mises à jour",
-                "it": "aggiungi semplice vero/falso per la grandine, dipendenze aggiornate",
-                "es": "agregue verdadero/falso simple para granizo, dependencias actualizadas",
-                "pl": "dodaj prostą prawdę/fałsz dla gradu, zaktualizowano zależności",
-                "uk": "додати простий істинний/неправдивий для вітання, оновлено залежності",
-                "zh-cn": "添加简单的真/假冰雹，更新依赖项"
+            "0.0.7-beta.2": {
+                "en": "BREAKING: node.js >= v18, js-controller >= v5 and admin >= v6.3.5 is required, add simple true/false for hail, dependencies updated",
+                "de": "BREAKING: node.js >= v18, js-controller >= v5 und admin >= v6.3.5 sind erforderlich, einfaches Wahr/Falsch für Hagel hinzufügen, Abhängigkeiten aktualisiert",
+                "ru": "СРОЧНО: требуется node.js >= v18, js-controller >= v5 и admin >= v6.3.5, добавьте простой true/false для града, обновлены зависимости",
+                "pt": "QUEBRANDO: node.js >= v18, js-controller >= v5 e admin >= v6.3.5 é necessário, adicione verdadeiro/falso simples para granizo, dependências atualizadas",
+                "nl": "BREAKING: node.js >= v18, js-controller >= v5 en admin >= v6.3.5 zijn vereist, voeg eenvoudig waar/onwaar toe voor hagel, afhankelijkheden bijgewerkt",
+                "fr": "RUPTURE : node.js >= v18, js-controller >= v5 et admin >= v6.3.5 sont requis, ajoutez un simple vrai/faux pour la grêle, dépendances mises à jour",
+                "it": "BREAKING: node.js >= v18, js-controller >= v5 e admin >= v6.3.5 sono richiesti, aggiungi semplice true/false per hail, dipendenze aggiornate",
+                "es": "ÚLTIMA HORA: se requiere node.js >= v18, js-controller >= v5 y admin >= v6.3.5, agregue verdadero/falso simple para granizo, dependencias actualizadas",
+                "pl": "ŁAMANIE: wymagany jest node.js >= v18, js-controller >= v5 i admin >= v6.3.5, dodaj proste true/false dla gradu, zaktualizowano zależności",
+                "uk": "ЗЛОМА: потрібні node.js >= v18, js-controller >= v5 і admin >= v6.3.5, додайте простий true/false для hail, залежності оновлено",
+                "zh-cn": "破坏：需要node.js >= v18、js-controller >= v5 和 admin >= v6.3.5，为冰雹添加简单的 true/false，更新依赖项"
             }
         },
         "titleLang": {
@@ -128,7 +128,10 @@
             "hail",
             "hailwarnings"
         ],
-        "license": "MIT",
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
         "platform": "Javascript/Node.js",
         "main": "main.js",
         "icon": "hagelschutz.svg",
@@ -136,6 +139,7 @@
         "extIcon": "https://raw.githubusercontent.com/ice987987/ioBroker.hagelschutz/main/admin/hagelschutz.svg",
         "readme": "https://github.com/ice987987/ioBroker.hagelschutz/blob/main/README.md",
         "loglevel": "info",
+        "tier": 3,
         "mode": "daemon",
         "type": "weather",
         "compact": true,
@@ -146,12 +150,12 @@
         },
         "dependencies": [
             {
-                "js-controller": ">=4.0.24"
+                "js-controller": ">= 5"
             }
         ],
         "globalDependencies": [
             {
-                "admin": ">=6.3.5"
+                "admin": ">= 6.3.5"
             }
         ]
     },

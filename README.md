@@ -26,8 +26,8 @@ All product and company names or logos are trademarks™ or registered® tradema
 
 ## Installation requirements
 
--   node.js >= v16.0 is required
--   js-controller >= v4.0.24 is required
+-   node.js >= v18 is required
+-   js-controller >= v5 is required
 -   admin >= v6.3.5 is required
 -   Access to [meteo.netitservices.com](https://meteo.netitservices.com) which can requested via [hagelschutz-einfach-automatisch.ch](https://www.hagelschutz-einfach-automatisch.ch/eigentuemer-verwaltungen/produkt/ich-habe-interesse.html).
 
@@ -54,14 +54,15 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 
 <!-- ### **WORK IN PROGRESS** -->
 
-### 0.0.7-beta.1
+### 0.0.7-beta.2
 
+-   (ice987987) BREAKING: node.js >= v18, js-controller >= v5 and admin >= v6.3.5 is required
 -   (ice987987) add simple true/false for hail [#92](https://github.com/ice987987/ioBroker.hagelschutz/issues/92)
 -   (ice987987) dependencies updated
 
 ### 0.0.6 (01.06.2023)
 
--   (ice987987) BREAKING: node.js >= v16.0, js-controller >= v4.0.24 and admin >= v6.3.5 is required
+-   BREAKING: node.js >= v16.0, js-controller >= v4.0.24 and admin >= v6.3.5 is required
 -   (ice987987) dependencies updated
 
 ### 0.0.5 (04.03.2023)
