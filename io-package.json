@@ -133,7 +133,6 @@
             "license": "MIT"
         },
         "platform": "Javascript/Node.js",
-        "main": "main.js",
         "icon": "hagelschutz.svg",
         "enabled": true,
         "extIcon": "https://raw.githubusercontent.com/ice987987/ioBroker.hagelschutz/main/admin/hagelschutz.svg",
@@ -150,7 +149,7 @@
         },
         "dependencies": [
             {
-                "js-controller": ">= 5"
+                "js-controller": ">= 5.0.19"
             }
         ],
         "globalDependencies": [
