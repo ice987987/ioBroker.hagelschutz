@@ -157,7 +157,7 @@ class Hagelschutz extends utils.Adapter {
 
 			callback();
 			this.log.info('cleaned everything up... (#1)');
-		} catch (e) {
+		} catch {
 			callback();
 			this.log.info('cleaned everything up... (#2)');
 		}
