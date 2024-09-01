@@ -82,7 +82,17 @@
                 "zh-cn": "中断：需要 node.js >= v16.0，js-controller >= v4.0.24 和 admin >= v6.3.5，依赖项已更新"
             },
             "0.0.7": {
-                "en": "BREAKING: node.js >= v18, js-controller >= v5.0.19 and admin >= v6.3.5 is required, add simple true/false for hail, dependencies updated"
+                "en": "BREAKING: node.js >= v18, js-controller >= v5.0.19 and admin >= v6.3.5 is required, add simple true/false for hail, dependencies updated",
+                "de": "BREAKING: node.js >= v18, js-controller >= v5.0.19 und admin >= v6.3.5 sind erforderlich, einfaches Wahr/Falsch für Hagel hinzufügen, Abhängigkeiten aktualisiert",
+                "ru": "СРОЧНО: требуется node.js >= v18, js-controller >= v5.0.19 и admin >= v6.3.5, добавьте простые значения true/false для града, обновлены зависимости",
+                "pt": "QUEBRANDO: node.js >= v18, js-controller >= v5.0.19 e admin >= v6.3.5 são necessários, adicione verdadeiro/falso simples para granizo, dependências atualizadas",
+                "nl": "BREAKING: node.js >= v18, js-controller >= v5.0.19 en admin >= v6.3.5 zijn vereist, voeg eenvoudig waar/onwaar toe voor hagel, afhankelijkheden bijgewerkt",
+                "fr": "RUPTURE : node.js >= v18, js-controller >= v5.0.19 et admin >= v6.3.5 sont requis, ajoutez un simple vrai/faux pour la grêle, dépendances mises à jour",
+                "it": "BREAKING: node.js >= v18, js-controller >= v5.0.19 e admin >= v6.3.5 sono richiesti, aggiungi semplice vero/falso per grandine, dipendenze aggiornate",
+                "es": "ÚLTIMA HORA: se requiere node.js >= v18, js-controller >= v5.0.19 y admin >= v6.3.5, agregue verdadero/falso simple para granizo, dependencias actualizadas",
+                "pl": "ŁAMANIE: wymagany jest node.js >= v18, js-controller >= v5.0.19 i admin >= v6.3.5, dodaj prostą prawdę/fałsz dla gradu, zaktualizowano zależności",
+                "uk": "ЗЛОМА: потрібні node.js >= v18, js-controller >= v5.0.19 і admin >= v6.3.5, додайте простий true/false для hail, залежності оновлено",
+                "zh-cn": "破坏：需要node.js >= v18、js-controller >= v5.0.19 和 admin >= v6.3.5，为冰雹添加简单的 true/false，更新依赖项"
             },
             "titleLang": {
                 "en": "Hagelschutz",
@@ -175,3 +185,4 @@
             }
         ]
     }
+}
