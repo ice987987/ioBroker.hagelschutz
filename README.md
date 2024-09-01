@@ -54,7 +54,7 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 
 <!-- ### **WORK IN PROGRESS** -->
 
-### 0.0.7-beta.2
+### 0.0.7 (01.09.2024)
 
 -   (ice987987) BREAKING: node.js >= v18, js-controller >= v5.0.19 and admin >= v6.3.5 is required
 -   (ice987987) add simple true/false for hail [#92](https://github.com/ice987987/ioBroker.hagelschutz/issues/92)
