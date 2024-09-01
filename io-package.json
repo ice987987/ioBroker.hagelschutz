@@ -93,96 +93,96 @@
                 "pl": "ŁAMANIE: wymagany jest node.js >= v18, js-controller >= v5.0.19 i admin >= v6.3.5, dodaj prostą prawdę/fałsz dla gradu, zaktualizowano zależności",
                 "uk": "ЗЛОМА: потрібні node.js >= v18, js-controller >= v5.0.19 і admin >= v6.3.5, додайте простий true/false для hail, залежності оновлено",
                 "zh-cn": "破坏：需要node.js >= v18、js-controller >= v5.0.19 和 admin >= v6.3.5，为冰雹添加简单的 true/false，更新依赖项"
-            },
-            "titleLang": {
-                "en": "Hagelschutz",
-                "de": "Hagelschutz",
-                "ru": "Hagelschutz",
-                "pt": "Hagelschutz",
-                "nl": "Hagelschutz",
-                "fr": "Hagelschutz",
-                "it": "Hagelschutz",
-                "es": "Hagelschutz",
-                "pl": "Hagelschütz",
-                "zh-cn": "Hagelschutz",
-                "uk": "Хагельшуц"
-            },
-            "desc": {
-                "en": "This adapter fetches hail warnings from meteo.netitservices.com.",
-                "de": "Dieser Adapter ruft Hagelwarnungen von meteo.netitservices.com ab.",
-                "ru": "Этот адаптер получает предупреждения о граде с сайта meteo.netitservices.com.",
-                "pt": "Este adaptador obtém avisos de granizo de meteo.netitservices.com.",
-                "nl": "Deze adapter haalt hagelwaarschuwingen op van meteo.netitservices.com.",
-                "fr": "Cet adaptateur récupère les avertissements de grêle de meteo.netitservices.com.",
-                "it": "Questo adattatore recupera gli avvisi di grandine da meteo.netitservices.com.",
-                "es": "Este adaptador obtiene advertencias de granizo de meteo.netitservices.com.",
-                "pl": "Ten adapter pobiera ostrzeżenia o grach z meteo.netitservices.com.",
-                "zh-cn": "该适配器从meteo.netitservices.com 获取冰雹警告。",
-                "uk": "Цей адаптер отримує попередження про град із сайту meteo.netitservices.com."
-            },
-            "authors": [
-                "ice987987 <mathias.frei1@gmail.com>"
-            ],
-            "keywords": [
-                "hail",
-                "hailwarnings"
-            ],
-            "licenseInformation": {
-                "type": "free",
-                "license": "MIT"
-            },
-            "platform": "Javascript/Node.js",
-            "icon": "hagelschutz.svg",
-            "enabled": true,
-            "extIcon": "https://raw.githubusercontent.com/ice987987/ioBroker.hagelschutz/main/admin/hagelschutz.svg",
-            "readme": "https://github.com/ice987987/ioBroker.hagelschutz/blob/main/README.md",
-            "loglevel": "info",
-            "tier": 3,
-            "mode": "daemon",
-            "type": "weather",
-            "compact": true,
-            "connectionType": "cloud",
-            "dataSource": "poll",
-            "adminUI": {
-                "config": "json"
-            },
-            "dependencies": [
-                {
-                    "js-controller": ">=5.0.19"
-                }
-            ],
-            "globalDependencies": [
-                {
-                    "admin": ">=6.3.5"
-                }
-            ]
+            }
         },
-        "native": {
-            "url": ""
+        "titleLang": {
+            "en": "Hagelschutz",
+            "de": "Hagelschutz",
+            "ru": "Hagelschutz",
+            "pt": "Hagelschutz",
+            "nl": "Hagelschutz",
+            "fr": "Hagelschutz",
+            "it": "Hagelschutz",
+            "es": "Hagelschutz",
+            "pl": "Hagelschütz",
+            "zh-cn": "Hagelschutz",
+            "uk": "Хагельшуц"
         },
-        "objects": [],
-        "instanceObjects": [
+        "desc": {
+            "en": "This adapter fetches hail warnings from meteo.netitservices.com.",
+            "de": "Dieser Adapter ruft Hagelwarnungen von meteo.netitservices.com ab.",
+            "ru": "Этот адаптер получает предупреждения о граде с сайта meteo.netitservices.com.",
+            "pt": "Este adaptador obtém avisos de granizo de meteo.netitservices.com.",
+            "nl": "Deze adapter haalt hagelwaarschuwingen op van meteo.netitservices.com.",
+            "fr": "Cet adaptateur récupère les avertissements de grêle de meteo.netitservices.com.",
+            "it": "Questo adattatore recupera gli avvisi di grandine da meteo.netitservices.com.",
+            "es": "Este adaptador obtiene advertencias de granizo de meteo.netitservices.com.",
+            "pl": "Ten adapter pobiera ostrzeżenia o grach z meteo.netitservices.com.",
+            "zh-cn": "该适配器从meteo.netitservices.com 获取冰雹警告。",
+            "uk": "Цей адаптер отримує попередження про град із сайту meteo.netitservices.com."
+        },
+        "authors": [
+            "ice987987 <mathias.frei1@gmail.com>"
+        ],
+        "keywords": [
+            "hail",
+            "hailwarnings"
+        ],
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "hagelschutz.svg",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/ice987987/ioBroker.hagelschutz/main/admin/hagelschutz.svg",
+        "readme": "https://github.com/ice987987/ioBroker.hagelschutz/blob/main/README.md",
+        "loglevel": "info",
+        "tier": 3,
+        "mode": "daemon",
+        "type": "weather",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
             {
-                "_id": "info",
-                "type": "channel",
-                "common": {
-                    "name": "Information"
-                },
-                "native": {}
-            },
+                "js-controller": ">=5.0.19"
+            }
+        ],
+        "globalDependencies": [
             {
-                "_id": "info.connection",
-                "type": "state",
-                "common": {
-                    "role": "indicator.connected",
-                    "name": "Device or service connected",
-                    "type": "boolean",
-                    "read": true,
-                    "write": false,
-                    "def": false
-                },
-                "native": {}
+                "admin": ">=6.3.5"
             }
         ]
-    }
+    },
+    "native": {
+        "url": ""
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "Device or service connected",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
+    ]
 }
