@@ -11,7 +11,7 @@ const utils = require('@iobroker/adapter-core');
 const axios = require('axios');
 
 // variables
-const isValidUrl = /https:\/\/meteo.netitservices.com\/api\/v0\/devices\/[a-zA-Z0-9]{12}\/poll\?hwtypeId=[0-9]{1,4}/;
+const isValidUrl = /https:\/\/meteo.netitservices.com\/api\/v[0,1]\/devices\/[a-zA-Z0-9]{12}\/poll\?hwtypeId=[0-9]{1,4}/;
 
 class Hagelschutz extends utils.Adapter {
 	/**
