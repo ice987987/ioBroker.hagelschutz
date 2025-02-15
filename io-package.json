@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "hagelschutz",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "news": {
             "0.0.1": {
                 "en": "initial release",
@@ -93,6 +93,19 @@
                 "pl": "ŁAMANIE: wymagany jest node.js >= v18, js-controller >= v5.0.19 i admin >= v6.3.5, dodaj prostą prawdę/fałsz dla gradu, zaktualizowano zależności",
                 "uk": "ЗЛОМА: потрібні node.js >= v18, js-controller >= v5.0.19 і admin >= v6.3.5, додайте простий true/false для hail, залежності оновлено",
                 "zh-cn": "破坏：需要node.js >= v18、js-controller >= v5.0.19 和 admin >= v6.3.5，为冰雹添加简单的 true/false，更新依赖项"
+            },
+            "0.0.8": {
+                "en": "dependencies updated",
+                "de": "Abhängigkeiten aktualisiert",
+                "ru": "Зависимости обновлены",
+                "pt": "dependências atualizadas",
+                "nl": "afhankelijkheden bijgewerkt",
+                "fr": "dépendances mises à jour",
+                "it": "dipendenze aggiornate",
+                "es": "dependencias actualizadas",
+                "pl": "Zależności zaktualizowane",
+                "uk": "залежності оновлені",
+                "zh-cn": "依赖项更新了"
             }
         },
         "titleLang": {

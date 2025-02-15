@@ -54,6 +54,9 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 
 <!-- ### **WORK IN PROGRESS** -->
 
+### 0.0.8 (15.02.2025)
+-   (ice987987) dependencies updated
+
 ### 0.0.7 (01.09.2024)
 
 -   (ice987987) BREAKING: node.js >= v18, js-controller >= v5.0.19 and admin >= v6.3.5 is required
