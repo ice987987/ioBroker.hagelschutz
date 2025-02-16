@@ -98,7 +98,7 @@ The hail forecast is calculated every 5 minutes. Therefore, the interval to poll
 
 MIT License
 
-Copyright (c) 2024 ice987987 <mathias.frei1@gmail.com>
+Copyright (c) 2025 ice987987 <mathias.frei1@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
